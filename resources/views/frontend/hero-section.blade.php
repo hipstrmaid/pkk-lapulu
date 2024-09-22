@@ -14,4 +14,10 @@
         <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
             class="w-full h-full object-cover" />
     </div>
+    <div class="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
+        <div class="circle active"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+    </div>
 </div>

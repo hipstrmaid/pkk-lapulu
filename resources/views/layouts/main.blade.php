@@ -20,8 +20,8 @@
 <body class="font-sans text-base antialiased">
     <div class="min-h-screen bg-gray-100">
         @include('includes.header')
-        <main>
-            @yield('hero')
+        <main class="flex flex-col gap-5">
+            @yield('content')
         </main>
         @include('includes.footer')
     </div>

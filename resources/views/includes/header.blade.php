@@ -1,14 +1,7 @@
 {{-- bg-blue-500 --}}
 <div class="flex py-3 px-5 items-center bg-sky-800 text-white top-0 z-10">
-    <div class="flex-1">
-        <div class="flex items-center gap-2">
-            <span class="w-12 h-12"><img src="{{ asset('assets/gambar/logo-kendari.webp') }}" alt="Logo"></span>
-            <div class="text-xl font-bold  flex flex-col">
-                <span>TP.PKK</span>
-                <span>KELURAHAN LAPULU</span>
-            </div>
-
-        </div>
+    <div class="logo flex-1">
+        <img src="{{ asset('assets/gambar/logo.png') }}" alt="Logo">
     </div>
     <div class="flex-none lg:hidden">
         <button id="nav-toggle"
@@ -142,67 +135,3 @@
         </li>
     </ul>
 </div>
-
-
-
-{{-- <div id="mobile-menu" class="hidden lg:hidden absolute bg-blue-500 z-50 w-full">
-    <ul class="bg-blue-500 text-gray-100">
-        <li><a class="block py-2 px-4 text-yellow-200">Home</a></li>
-        <li>
-            <details onclick="toggleDetails(event)">
-                <summary class="block py-2 px-4 font-bold hover:text-yellow-200">Profile</summary>
-                <ul class="bg-gray-100 text-gray-900 py-2 px-4  rounded-none">
-                    <li class="w-full"><a>Sejarah PKK</a></li>
-                    <li><a>10 Program Pokok PKK</a></li>
-                    <li><a>Arti dan Logo PKK</a></li>
-                    <li><a>Visi & Misi</a></li>
-                    <li><a>Struktur Organisasi</a></li>
-                    <li><a>Profil Pj.Pembina PKK</a></li>
-                    <li><a>Mars PKK</a></li>
-                </ul>
-            </details>
-        </li>
-        <li>
-            <details onclick="toggleDetails(event)">
-                <summary class="block py-2 px-4 font-bold hover:text-yellow-200">POKJA & Sekretariat</summary>
-                <ul class="bg-gray-100 text-gray-900 py-2 px-4 rounded-none">
-                    <li><a>Sekretariat</a></li>
-                    <li><a>Pokja I</a></li>
-                    <li><a>Pokja II</a></li>
-                    <li><a>Pokja III</a></li>
-                    <li><a>Pokja IV</a></li>
-                </ul>
-            </details>
-        </li>
-        <li>
-            <details onclick="toggleDetails(event)">
-                <summary class="block py-2 px-4 font-bold hover:text-yellow-200">Informasi</summary>
-                <ul class="bg-gray-100 text-gray-900 py-2 px-4 rounded-none">
-                    <li><a>Agenda Kegiatan</a></li>
-                    <li><a>Informasi Terbaru</a></li>
-                    <li><a>Galeri</a></li>
-                    <li><a>Kontak</a></li>
-                </ul>
-            </details>
-        </li>
-        <li>
-            <details onclick="toggleDetails(event)">
-                <summary class="block py-2 px-4 font-bold hover:text-yellow-200">Daerah</summary>
-                <ul class="bg-gray-100 text-gray-900 py-2 px-4 rounded-none">
-                    <li class="w-full"><a>Link 1</a></li>
-                    <li><a>Link 2</a></li>
-                </ul>
-            </details>
-        </li>
-        <li>
-            <details onclick="toggleDetails(event)">
-                <summary class="block py-2 px-4 font-bold hover:text-yellow-200">Data</summary>
-                <ul class="bg-gray-100 text-gray-900 py-2 px-4 rounded-none">
-                    <li class="w-full"><a>Link 1</a></li>
-                    <li><a>Link 2</a></li>
-                </ul>
-            </details>
-        </li>
-
-    </ul>
-</div> --}}
