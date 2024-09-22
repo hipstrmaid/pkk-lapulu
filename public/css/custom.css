@@ -17,10 +17,15 @@
 .carousel-item.active {
     opacity: 1;
 }
+
 @media (max-width: 640px) {
     /* Adjust the breakpoint as needed */
 
-    iframe {
+    .responsive-iframe {
         height: 205px !important; /* Set height for small screens */
+    }
+
+    .responsive-map {
+        width: auto !important;
     }
 }

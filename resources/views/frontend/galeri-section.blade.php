@@ -1,4 +1,4 @@
-<div class="flex w-full flex-col flex-wrap mt-10 ">
+<div class="flex w-full flex-col flex-wrap mt-5">
     <div class="divider divider-neutral text-3xl font-bold text-sky-800">GALERI</div>
 </div>
 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
