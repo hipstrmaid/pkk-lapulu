@@ -1,10 +1,10 @@
-<footer class="footer bg-sky-500 text-black p-10 mt-5 gap-10">
+<footer class="footer bg-sky-800 text-gray-50 p-10 gap-10">
     <aside class="w-full">
         <h6 class="footer-title font-bold text-lg">LOKASI</h6>
-        <iframe
+        {{-- <iframe
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d591.6583038429762!2d122.58180287421195!3d-3.98195624601918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d98ed29f8eff83d%3A0x692f7867ae5c00fd!2sKantor%20Lurah%20Lapulu!5e0!3m2!1sid!2sid!4v1726985313929!5m2!1sid!2sid"
             style="width: 100%; height: 250px; border: 0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
+            referrerpolicy="no-referrer-when-downgrade"></iframe> --}}
 
     </aside>
     <nav>

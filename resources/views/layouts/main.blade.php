@@ -13,20 +13,20 @@
     <link href="https://fonts.cdnfonts.com/css/segoe-ui-4" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
 
+
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 
 <body class="font-sans text-base antialiased">
-    <div class="min-h-screen bg-gray-100">
-        @include('includes.header')
-        <main class="flex flex-col gap-5">
+    @include('includes.header')
+    <div class="min-h-screen flex flex-col h-full bg-gray-100">
+        <main class="flex-grow flex flex-col gap-5">
             @yield('content')
         </main>
         @include('includes.footer')
     </div>
-    <script src="js/events.js"></script>
-    <script src="{{ asset('js/carousel.js') }}"></script>
+    <script src="{{ asset('js/menu-toggle.js') }}"></script>
 </body>
 
 </html>

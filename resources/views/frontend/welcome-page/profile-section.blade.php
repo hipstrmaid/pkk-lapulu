@@ -1,6 +1,8 @@
+{{-- <div
+    class="container py-5 px-12 mt-10 w-full flex-row grid grid-cols-1 lg:gap-20 lg:grid-cols-8 justify-center items-center shadow shadow-lg bg-white"> --}}
 <div
-    class="container py-5 px-12 mt-10 w-full flex-row grid grid-cols-1 gap-2 lg:grid-cols-8 justify-center items-center shadow shadow-lg bg-white">
-    <div class="w-full flex-col justify-center col-span-4 order-2 lg:order-1 text-center lg:text-left">
+    class="container flex-row grid grid-cols-1 lg:gap-20 lg:grid-cols-8 justify-center items-center shadow shadow-lg bg-white">
+    <div class="w-full flex-col justify-center col-span-4 p-5 order-2 lg:order-1 text-center lg:text-left lg:ml-10">
         <div class="title">
             <p class="text-info font-bold text-lg">SAMBUTAN KETUA TP.PKK KELURAHAN LAPULU</p>
         </div>
@@ -11,8 +13,7 @@
                 Website
                 ini
                 merupakan
-                media informasi
-                publikasi dan komunikasi TP.PKK Kelurahan Lapulu dalam Menyampaikan informasi kegiatan 10
+                Media Informasi Digital Data (MESIDA) TP.PKK Kelurahan Lapulu dalam Menyampaikan informasi kegiatan 10
                 Program
                 Pokok PKK dalam upaya mendukung tercapainya program kerja.</p>
         </div>
